@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>moving div</title> 
+	<style type="text/css">
+		@keyframes move{
+			0%{
+				margin-left: 0px;
+				margin-top:0px;
+				background-color: red;
+			}
+			25%{
+				margin-left:100px;
+				margin-top:0px;
+				background-color: black;
+			}
+			50%{
+				margin-left: 100px;
+				margin-top: 100px;
+				background-color: gray;
+			}
+			75%{
+				margin-left: 0px;
+				margin-top:100px;
+				background-color: pink ;
+			}
+			100%{margin-left: 0px;
+				margin-top:0px;
+				background-color:yellow;
+			}
+
+
+
+		}
+
+		
+
+
+
+	</style>
+</head>
+<body>
+	<div class="ab" style="width: 100px; height: 100px; animation-name: move; animation-duration: 3s; animation-iteration-count: infinite; animation-direction: reverse;animation-delay: 2s;animation-timing-function: cubic-bezier();top: 0%;
+			left: 0%;
+						position:absolute;">
+		
+	</div>
+
+</body>
+</html>
